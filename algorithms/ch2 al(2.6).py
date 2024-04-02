@@ -1,6 +1,6 @@
 def binary_digits(n):
-    count = 0
-    while n > 0:
+    count = 1
+    while n > 1:
         count = count + 1
         n = n // 2
     return count

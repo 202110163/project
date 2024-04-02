@@ -1,0 +1,8 @@
+def factorial(n):
+    result = 1
+    for k in range(n, 0, -1):
+        result = result * k
+    return result
+
+result = factorial(10)
+print(result)
