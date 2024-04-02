@@ -1,3 +1,7 @@
+/*
+for 루프는 사용하여 배열의 값을 출력하는 프로그램
+*/
+
 #include <stdio.h>
 #include <math.h>
 
