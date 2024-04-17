@@ -11,7 +11,14 @@ def bfs(graph, start):
             visited.add(u)
             que.put(u)
 
-mygraph =  {"A":{"B", "C"}, "B":{"A", "D"}, "C":{"A", "D", "E"}, "D":{"B", "C", "F"}, "E":{"C", "G", "H"}, "F":{"D"}, "G":{"E", "H"}, "H":{"E", "G"}}
+mygraph =  {"A":{"B", "C"}, 
+            "B":{"A", "D"},
+            "C":{"A", "D", "E"}, 
+            "D":{"B", "C", "F"},
+            "E":{"C", "G", "H"}, 
+            "F":{"D"}, 
+            "G":{"E", "H"}, 
+            "H":{"E", "G"}}
 
 print('BFS : ', end= " ")
 bfs(mygraph, "A")
