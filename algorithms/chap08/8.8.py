@@ -17,7 +17,7 @@ def shortest_path_dijkstra(vtx, adj, start):
     found = [False] * vsize
     found[start] = True
     
-    for i in range(vsize - 1):  # vsize - 1 번만큼 반복
+    for i in range(vsize - 1):
         print("Step%2d:" % (i + 1), dist)
         u = getMinVertex(dist, found)
         found[u] = True
